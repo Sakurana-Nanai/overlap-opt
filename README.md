@@ -1,21 +1,21 @@
 # overlap-opt
 ## パラメータを最適化（連続音用）
-vlabelerで連続音のパラメータ最適化を行うプラグインです。
-This is a plugin that optimizes parameters for Japanese VCV in vlabeler.
-这是一个使用vlabeler优化日语连续音（VCV）参数的插件。
+ vlabelerで連続音のパラメータ最適化を行うプラグインです。
+ This is a plugin that optimizes parameters for Japanese VCV in vlabeler.
+ 这是一个使用vlabeler优化日语连续音（VCV）参数的插件。
 
 ### このプラグインについて
 UTAU原音設定用ソフトsetParamプラグインとして配布されている巽さん制作の["パラメータ調整さん"](https://bowlroll.net/file/83065)をvlabelerでも使いたい！
 ……と思ったので、僭越ながら作らせていただきました。
-プログラミング初心者なので、バグとかいろいろあると思います、すみません……
-パラメータ計算の仕様は大体同じだと信じたい……
+プログラミング初心者なので、バグとかいろいろあると思います、すみません。 パラメータ計算の仕様は大体同じだと信じたい……
 一応、日本語・英語・中国語対応です。
 (This plugin supports English) （此插件支持中文显示）
 
 ### 導入方法
 1. [vlabeler](https://vlabeler.com/)をダウンロード・インストールします。
-2. vlabelerを実行して、ツール ＞ 一括編集 ＞ プラグインマネージャー を開いて、「ディレクトリを開く」を押します。
-3. そこに、overlap-optフォルダを置いて、プラグインマネージャーで「再読み込み」をしてください。
+2. [Releases](https://github.com/Sakurana-Nanai/overlap-opt/releases)にあるソースコードの圧縮ファイルをそのままダウンロードしてください。
+3. vlabelerを実行して、ツール ＞ 一括編集 ＞ プラグインマネージャー を開いて、「ディレクトリを開く」を押します。
+4. そこに、overlap-optフォルダを置いて、プラグインマネージャーで「再読み込み」をしてください。
 
 ### 使い方（日本語連続音を原音設定している前提）
 1. 任意のプロジェクトファイルを開く、または新規作成します。
