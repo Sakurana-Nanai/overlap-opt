@@ -15,7 +15,7 @@ if (debug) {
 
 let errorEntries = [];
 
-const yoonAndSmallKana = /[きぎしじちにひびぴみり][ゃゅょ]|[キギシジチニヒビピミリ][ャュョ]|[つツ][ぁぃぅぇぉァィゥェォ]|[ぁぃぅぇぉァィゥェォ]/;
+const yoonAndSmallKana = /[きぎしじちにひびぴみり][ゃゅょ].*$|[キギシジチニヒビピミリ][ャュョ].*$|[つツ][ぁぃぅぇぉァィゥェォ].*$|[ぁぃぅぇぉァィゥェォ].*$/;
 
 for (let index of selectedEntryIndexes) {
     let entry = entries[index]
